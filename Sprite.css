@@ -1,0 +1,36 @@
+/* -----------------------------------------------------
+   created with https://www.codeandweb.com/texturepacker 
+   -----------------------------------------------------
+   $TexturePacker:SmartUpdate:2e087b5e90f9da10436a25525b499eed:347caa17801266c006174f8234e0e6fc:de61289bdf7788f4a5bea53508eb345b$
+   -----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(Sprite.png);}
+
+.png1 {width:194px; height:310px; background-position: -776px -300px}
+.png10 {width:194px; height:354px; background-position: -0px -959px}
+.png11 {width:194px; height:305px; background-position: -194px -300px}
+.png12 {width:194px; height:349px; background-position: -776px -610px}
+.png13 {width:194px; height:334px; background-position: -388px -610px}
+.png14 {width:194px; height:368px; background-position: -776px -959px}
+.png15 {width:194px; height:361px; background-position: -194px -959px}
+.png16 {width:194px; height:369px; background-position: -0px -1327px}
+.png17 {width:194px; height:367px; background-position: -582px -959px}
+.png18 {width:194px; height:376px; background-position: -194px -1327px}
+.png19 {width:194px; height:365px; background-position: -388px -959px}
+.png2 {width:194px; height:311px; background-position: -0px -610px}
+.png20 {width:194px; height:347px; background-position: -582px -610px}
+.png21 {width:194px; height:301px; background-position: -0px -300px}
+.png22 {width:194px; height:315px; background-position: -194px -610px}
+.png3 {width:194px; height:287px; background-position: -388px -0px}
+.png4 {width:194px; height:306px; background-position: -388px -300px}
+.png5 {width:194px; height:300px; background-position: -776px -0px}
+.png6 {width:194px; height:273px; background-position: -194px -0px}
+.png7 {width:194px; height:288px; background-position: -582px -0px}
+.png8 {width:194px; height:270px; background-position: -0px -0px}
+.png9 {width:194px; height:308px; background-position: -582px -300px}
