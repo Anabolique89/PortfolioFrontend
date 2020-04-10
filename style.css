@@ -466,6 +466,10 @@ footer a {
   background-color: transparent !important;
 }
 
+img .multimedia {
+  width: 20%;
+  height: auto;
+}
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -475,6 +479,7 @@ footer a {
     border-radius: 0;
   }
 }
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
