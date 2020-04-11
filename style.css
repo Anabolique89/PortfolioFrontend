@@ -74,7 +74,7 @@ ul.carousel-indicators::active {
   border-radius: 0;
 }
 .padding {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .welcome {
   width: 75%;
@@ -107,6 +107,9 @@ hr.light {
 }
 footer a {
   color: #222;
+}
+div.col-12 {
+  padding-bottom: 0;
 }
 /*.elem { max-width: 100%;} */
 /*----Sprite animation 1-----*/
@@ -466,10 +469,6 @@ footer a {
   background-color: transparent !important;
 }
 
-img .multimedia {
-  width: 20%;
-  height: auto;
-}
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -479,6 +478,23 @@ img .multimedia {
     border-radius: 0;
   }
 }
+/*-----fancy text------*/
+.fancy {
+  color: #9fb7b7;
+  font-size: 3rem;
+  font-family: "Permanent Marker";
+  text-align: center;
+  text-shadow: 2px 2px #323232;
+}
+span {
+  opacity: 0;
+  transition: all 1s ease-in;
+  display: inline-block;
+}
+span.fade {
+  opacity: 1;
+}
+/*-----boxes process ---*/
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
