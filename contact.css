@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @font-face {
   font-family: "Permanent Marker";
-  src: url("Fonts/PermanentMarker.ttf") format("ttf2"),
-    url("Fonts/PermanentMarker.ttf") format("ttf");
+  src: url("Fonts/permanentmarker-webfont.woff2") format("woff2"),
+    url("Fonts/permanentmarker-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Sen";
-  src: url("Fonts/Sen-Regular.ttf") format("ttf2"),
-    url("Fonts/Sen-Regular.ttf") format("ttf");
+  src: url("Fonts/sen-regular-webfont.woff2") format("woff2"),
+    url("Fonts/sen-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -133,7 +133,7 @@ input[type="submit"]:hover {
 }
 
 .addservice select {
-	width: 95%;
+	width: 90%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -165,7 +165,7 @@ input[type="submit"]:hover {
 }
 
 .addsubmit input {
-	width: 95%;
+	width: 90%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -246,27 +246,37 @@ input[type="submit"]:hover {
         padding: 1vw;
         text-align: left;
     }
-    
+    div.loicon img{
+        width: 60%;
+    }
+    div.phoicon img{
+        width: 60%;
+    }
+    div.emicon img{
+        width: 60%;
+    }
     .contactsome h {
         font-family: "Permanent Marker";
         text-transform: uppercase;
         padding: 0.4vw;
-        font-size: 6vw;
+        font-size: 6.5vw;
         color: white;
         text-shadow: black 1px 1px 10px ;
     }
-    
+    div.col-lg-6:nth-child(2){
+        margin-top: -500px;
+    }
     
     .contactsome p {
         padding: 0.4vw;
         margin: 0;
-        font-size: 3vw;
+        font-size: 4.5vw;
         color: white;
         text-shadow: black 1px 1px 10px;
     }
     
-    .contactsome img {
-        width: 100%;
+    div.contactsome img {
+        width: 80%;
         
         
     }

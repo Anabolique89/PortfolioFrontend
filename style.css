@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @font-face {
   font-family: "Permanent Marker";
-  src: url("Fonts/PermanentMarker.ttf") format("ttf2"),
-    url("Fonts/PermanentMarker.ttf") format("ttf");
+  src: url("Fonts/permanentmarker-webfont.woff2") format("woff2"),
+    url("Fonts/permanentmarker-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Sen";
-  src: url("Fonts/Sen-Regular.ttf") format("ttf2"),
-    url("Fonts/Sen-Regular.ttf") format("ttf");
+  src: url("Fonts/sen-regular-webfont.woff2") format("woff2"),
+    url("Fonts/sen-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,6 +22,9 @@ body {
 }
 .navbar {
   padding: 0.8rem;
+}
+span.navbar-toggler-icon{
+  background-image: url(imgs/algae.png);
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -120,7 +123,8 @@ div.col-12 {
   height: 700px;
   -webkit-animation: walk-east 3s steps(13) infinite;
   animation: walk-east 2s steps(13) infinite;
-  opacity: 0.8;
+  opacity: 0.6;
+  z-index: 1;
 }
 
 @-webkit-keyframes walk-east {
@@ -172,7 +176,6 @@ div.col-12 {
   overflow: hidden;
   display: -webkit-box;
   display: flex;
-  font-family: "Anton", sans-serif;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
@@ -487,15 +490,19 @@ div.col-12 {
   text-shadow: 2px 2px #323232;
 }
 span {
-  opacity: 0;
-  transition: all 1s ease-in;
+  opacity: 0.2;
+  transition: all 1s ease-in infinite;
   display: inline-block;
 }
 span.fade {
   opacity: 1;
 }
 /*-----boxes process ---*/
-
+.koifish {
+  background-image: url(svg/Fishy.svg);
+  background-size: cover;
+  z-index: 9;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
@@ -525,7 +532,6 @@ span.fade {
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
-  }
 }
 @media (max-width: 576px) {
   .carousel-caption {

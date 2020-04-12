@@ -32,3 +32,29 @@ body {
     background-position: 0% 50%;
   }
 }
+.koifish:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  transition: 0.7s;
+}
+.box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+.two-col > img:hover {
+  width: 500px;
+  height: auto;
+}
+@media (max-width: 576px) {
+  .box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 20px;
+  }
+}
