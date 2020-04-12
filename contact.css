@@ -90,7 +90,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	color: #7E8080;
-	background-color: gold;
+	background-color: #5f91ff;
 }
 
 .addname {
