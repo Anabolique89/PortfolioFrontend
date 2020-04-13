@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("Fonts/PermanentMarker.ttf") format("ttf2"),
+    url("Fonts/PermanentMarker.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sen";
+  src: url("Fonts/Sen-Regular.ttf") format("ttf2"),
+    url("Fonts/Sen-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background: linear-gradient(-45deg, #d9e2df, #9fb7b7, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -62,8 +77,8 @@ body {
     grid-template-rows: 1fr;
     grid-gap: 0.3rem;
   }
-  .box p {
-    font-size: 1.6em;
+  .box p.lead {
+    font-size: 1.1em;
   }
   .box h1 {
     font-family: "Permanent Marker";
@@ -77,10 +92,14 @@ body {
     width: 200px;
     height: auto;
   }
-  .jumbotron p {
-    font-size: 1.5em;
+  .jumbotron {
+    font-size: 0.8em;
+  }
+  p.step {
+    font-size: 0.8em;
   }
 }
+
 @media (max-width: 768px) {
   .two-col {
     display: grid;

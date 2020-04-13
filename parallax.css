@@ -84,7 +84,6 @@ html {
 section {
   overflow: auto;
   padding: 10px 10px;
-  padding-bottom: 20px;
   padding-top: 20px;
   opacity: 0.8;
 }
@@ -209,4 +208,25 @@ span {
 }
 span.fade {
   opacity: 1;
+}
+
+section.CV {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 576px) {
+  .dark p {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  p.lead {
+    font-size: 1.1em;
+  }
+  div.col-12 {
+    padding-bottom: 0.5rem;
+    grid-template-rows: inherit;
+    grid-gap: 10px;
 }
