@@ -27,7 +27,7 @@ body {
 }
 
 .innertext {
-	width: 80%;
+	width: 100%;
 	height: 80vh;
 	margin: 1vw;
 	padding: 2vw;
@@ -48,6 +48,7 @@ body {
 	padding: 2vw;
 	padding-bottom: 0;
 	width: 100%;
+	letter-spacing: 2px;
 }
 
 .contactus h {
@@ -57,11 +58,16 @@ body {
 	font-size: 4vw;
 	text-transform: none;
 }
+div.contactsome img {
+	width: 40%;
+	margin-left: -20px;
+}
 
 .contactdetails {
 	width: 150%;
 	background-image: url(svg/libraSavedAs.svg);
-    background-size: cover;
+	background-size: cover;
+	mix-blend-mode: multiply;
     
 }
 
@@ -72,10 +78,11 @@ body {
 
 .booking {
 	width: 100%;
-	font-size: 1vw;
 	text-align: left;
 	padding: 2vw;
 	text-transform: uppercase;
+
+	
 }
 
 input[type="submit"] {
@@ -86,6 +93,7 @@ input[type="submit"] {
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 650ms;
+
 }
 
 input[type="submit"]:hover {
@@ -94,14 +102,14 @@ input[type="submit"]:hover {
 }
 
 .addname {
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-rows: 1fr 3fr;
-	margin: 0.5vw;
+
 }
 
 .addname input {
-	width: 90%;
+	width: 100%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -110,14 +118,14 @@ input[type="submit"]:hover {
 }
 
 .addemail {
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-rows: 1fr 3fr;
 	margin: 0.5vw;
 }
 
 .addemail input {
-	width: 90%;
+	width: 100%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -126,14 +134,14 @@ input[type="submit"]:hover {
 }
 
 .addservice {
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-rows: 1fr 3fr;
 	margin: 0.5vw;
 }
 
 .addservice select {
-	width: 90%;
+	width: 100%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -142,14 +150,14 @@ input[type="submit"]:hover {
 }
 
 .addsubject {
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-rows: 1fr 9fr;
 	margin: 0.5vw;
 }
 
 .addsubject textarea {
-	width: 90%;
+	width: 100%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -158,14 +166,14 @@ input[type="submit"]:hover {
 }
 
 .addsubmit {
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-columns: grid-template-rows: 1fr 3fr;
 	margin: 0.5vw;
 }
 
 .addsubmit input {
-	width: 90%;
+	width: 100%;
 	padding: 1vw;
 	margin-bottom: 1vh;
 	border: solid grey 1px;
@@ -220,13 +228,12 @@ input[type="submit"]:hover {
 .contactsome p {
 	padding: 0.4vw;
 	margin: 0;
-	font-size: 1.5vw;
 	color: white;
 	text-shadow: black 1px 1px 10px;
 }
 
 .contactsome img {
-	width: 80%;
+	width: 70%;
 	
 }
 .secondcontain {
@@ -239,48 +246,92 @@ input[type="submit"]:hover {
 	top: 10vh;
 	text-align: center;
 }
-@media (max-width: 576px) {
+  @media (max-width: 768px) {
+	  .contactsome h{
+font-size: 2.7em;
+	  }
+	  .contactsome p{
+		font-size: 2em;
+			  }
+			  .addname{
+				font-size: 3vw;
+			  }
+			  .addemail {
+				font-size: 3vw;
+			}
+			
+			.addemail input {
+				font-size: 3vw;
+			}
+			
+			.addservice {
+				font-size: 3vw;
+			}
+			
+			.addservice select {
+				font-size: 3vw;
+			}
+			
+			.addsubject {
+				font-size: 3vw;
+			}
+			
+			.addsubject textarea {
+				font-size: 3vw;
+			}
+			
+			.addsubmit {
+				font-size: 3vw;
+			}
+			
+			.addsubmit input {
+				font-size: 3vw;
+			}
+			div.col-lg-6{
+				margin-top: -3vw;
+			}
+		
+  }
+  @media (max-width: 576px) {
     .contactsome {
         width: 100%;
-        height: 140vh;
+        height: -140vh;
         padding: 1vw;
-        text-align: left;
-    }
-    div.loicon img{
-        width: 60%;
-    }
-    div.phoicon img{
-        width: 60%;
-    }
-    div.emicon img{
-        width: 60%;
+		text-align: left;
     }
     .contactsome h {
         font-family: "Permanent Marker";
         text-transform: uppercase;
         padding: 0.4vw;
-        font-size: 6.5vw;
+        font-size: 1.5em;
         color: white;
         text-shadow: black 1px 1px 10px ;
     }
     div.col-lg-6:nth-child(2){
-        margin-top: -500px;
+        margin-top: -300px;
     }
     
     .contactsome p {
         padding: 0.4vw;
         margin: 0;
-        font-size: 4.5vw;
+        font-size: 1em;
         color: white;
-        text-shadow: black 1px 1px 10px;
+        text-shadow: black 1px 1px 7px;
     }
     
     div.contactsome img {
-        width: 80%;
-        
-        
+		width: 60%;
+	
     }
     footer {
-        padding-top: 0;
-      }
+		padding-top: 0;
+		
+	  }
+	  .sendmessage h {
+		padding: 2vw;
+		padding-bottom: 0;
+		width: 100%;
+		font-size: 5vw;
+	}
+
   }

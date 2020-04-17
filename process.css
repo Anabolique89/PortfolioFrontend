@@ -63,6 +63,10 @@ body {
   width: 500px;
   height: auto;
 }
+.two-col p.lead {
+  font-size: !important 0.5em;
+}
+
 @media (max-width: 576px) {
   .box {
     width: 100%;
