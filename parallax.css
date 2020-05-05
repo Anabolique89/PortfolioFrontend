@@ -205,9 +205,8 @@ img.pngBlue:hover {
   font-size: 3rem;
   font-family: "Permanent Marker";
   text-align: left;
-margin-left: 2.2rem;
+  margin-left: 2.2rem;
   text-shadow: 2px 2px #323232;
-  
 }
 
 span {
@@ -232,13 +231,24 @@ section.CV {
     margin-bottom: 5px;
   }
   p.about-me {
-    font-size: !important 17px;
-    
-    
+    font-size: 17px;
   }
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  section.dark {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  div.dark {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
 
-  div.col-12 {
-    padding-bottom: 0.5rem;
-    grid-template-rows: inherit;
-    grid-gap: 10px;
+div.col-12 {
+  padding-bottom: 0.5rem;
+  grid-template-rows: inherit;
+  grid-gap: 10px;
 }
