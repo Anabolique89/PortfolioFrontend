@@ -494,6 +494,9 @@ div.card{
   .container.gallery-container {
     border-radius: 0;
   }
+  .carousel-indicators {
+    display: none;
+  }
 }
 /*-----fancy text------*/
 .fancy {
@@ -504,7 +507,7 @@ div.card{
   text-shadow: 2px 2px #323232;
 }
 span {
-  opacity: 0.2;
+  opacity: 0.8;
   transition: all 1s ease-in infinite;
   display: inline-block;
 }
@@ -574,6 +577,10 @@ span.fade {
     width: 250px;
     height: auto;
   }
+
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url(Imgs/algae.png);
 }
 
 /*---Firefox Bug Fix --*/
