@@ -14,6 +14,7 @@
 }
 html,
 body {
+  background: #fff;
   height: 100%;
   width: 100%;
   font-family: "Sen";
@@ -485,6 +486,7 @@ div.card{
   background-color: transparent !important;
 }
 
+
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -549,9 +551,13 @@ span.fade {
     font-size: 2.5em;
     padding: 1.2rem;
 }
+}
 @media (max-width: 576px) {
   .carousel-caption {
     top: 30%;
+  }
+  html{
+    width: 100vw;
   }
   .carousel-caption h1 {
     font-size: 150%;
@@ -576,7 +582,13 @@ span.fade {
     width: 250px;
     height: auto;
   }
-
+  #anabel {
+    position: absolute;
+    background: url(Imgs/anabel.png);
+    width: 100vw;
+    height: 700px;
+  display: none;
+}
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(Imgs/algae.png);
