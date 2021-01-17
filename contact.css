@@ -180,6 +180,9 @@ input[type="submit"]:hover {
 	background-color: gainsboro;
 	color: black;
 }
+.addsubmit input:hover{
+	background-color: #2ee59d;
+}
 
 .location {
 	display: grid;
@@ -219,16 +222,16 @@ input[type="submit"]:hover {
 	text-transform: uppercase;
 	padding: 0.4vw;
 	font-size: 2vw;
-	color: white;
-	text-shadow: black 1px 1px 10px ;
+	color: #2ee59d;
+	text-shadow: black 1px 1px 2px ;
 }
 
 
 .contactsome p {
 	padding: 0.4vw;
 	margin: 0;
-	color: white;
-	text-shadow: black 1px 1px 10px;
+	color: #2ee59d;
+	text-shadow: black 1px 1px 1px;
 }
 
 .contactsome img {

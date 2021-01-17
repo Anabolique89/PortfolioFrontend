@@ -27,12 +27,52 @@ body {
 ::-webkit-scrollbar {
   display: none;
 }
-
+.card-body {
+  text-align: center;
+  background-color: #d5d5d5;
 }
+.card-text {
+  text-align: left;
+}
+.btn-outline-secondary {
+  background-color: #fff;
+  width: 100px;
+  height: 30px;
+  font-family: "Sen", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*-----button jump---*/
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #2ee59d;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+/*----button jump end */
 .navbar {
   padding: 0.8rem;
+  height: 60px;
 }
-span.navbar-toggler-icon{
+span.navbar-toggler-icon {
   background-image: url(Imgs/algae.png);
 }
 .navbar-nav li {
@@ -91,7 +131,6 @@ ul.carousel-indicators::active {
 .welcome {
   width: 75%;
   margin: 0 auto;
-  padding-top: 2rem;
 }
 .welcome hr {
   border-top: 2px solid #b4b4b4;
@@ -125,7 +164,7 @@ div.col-12 {
   grid-template-rows: inherit;
   grid-gap: 20px;
 }
-div.card{
+div.card {
   margin-bottom: 30px;
 }
 /*.elem { max-width: 100%;} */
@@ -486,7 +525,6 @@ div.card{
   background-color: transparent !important;
 }
 
-
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -501,15 +539,15 @@ div.card{
 }
 /*-----fancy text------*/
 .fancy {
-  color: #9fb7b7;
+  color: #2ee59d;
   font-size: 3rem;
   font-family: "Permanent Marker";
   text-align: center;
   text-shadow: 2px 2px #323232;
 }
 span {
-  opacity: 0.8;
-  transition: all 1s ease-in infinite;
+  opacity: 0;
+  transition: all 2s ease-in infinite;
   display: inline-block;
 }
 span.fade {
@@ -550,13 +588,13 @@ span.fade {
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
-}
+  }
 }
 @media (max-width: 576px) {
   .carousel-caption {
     top: 30%;
   }
-  html{
+  html {
     width: 100vw;
   }
   .carousel-caption h1 {
@@ -587,8 +625,8 @@ span.fade {
     background: url(Imgs/anabel.png);
     width: 100vw;
     height: 700px;
-  display: none;
-}
+    display: none;
+  }
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url(Imgs/algae.png);
