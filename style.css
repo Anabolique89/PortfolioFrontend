@@ -64,21 +64,36 @@ body {
 }
 
 .btn-outline-secondary:hover {
-  background-color: #2ee59d;
+  background-color: #56e0a9;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
 }
+a {
+  color: #999;
+}
 a:hover {
   text-decoration: none;
+}
+.lead {
+  margin: 0;
 }
 /*----button jump end */
 .navbar {
   padding: 0.8rem;
-  height: 60px;
 }
-span.navbar-toggler-icon {
-  background-image: url(Imgs/algae.png);
+.navbar-toggler:hover {
+  border: 1px solid#56e0a9;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-2px);
+}
+.navbar-toggler span {
+  opacity: 1;
+  background-image: url(Imgs/algae.png) !important;
+}
+.navbar-toggler span:hover {
+  opacity: 1;
+  background-image: url(Imgs/algae2.png) !important;
 }
 .navbar-nav li {
   padding-right: 20px;
@@ -93,12 +108,12 @@ span.navbar-toggler-icon {
 ul.carousel-indicators::before,
 ul.carousel-indicators::after,
 ul.carousel-indicators::active {
-  color: #5f91ff;
+  color: #9fb7b7;
 }
 .carousel-indicators li {
   width: 15px;
   height: 15px;
-  background: #9fb7b7;
+  background: #2ee59d;
   border-radius: 100%;
 }
 .carousel-caption {
@@ -142,7 +157,7 @@ ul.carousel-indicators::active {
   margin: 0 auto;
 }
 .welcome hr {
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #2ee59d;
   width: 95%;
   margin-top: 0.3rem;
   margin-bottom: 1rem;
@@ -161,7 +176,7 @@ footer {
   padding-top: 0.7rem;
 }
 hr.light {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #2ee59d;
   margin-top: 0.8rem;
   margin-bottom: 1rem;
 }
@@ -588,7 +603,7 @@ span.fade {
     padding-bottom: 0.2rem;
   }
   .carousel-caption .btn {
-    font-size: 95%;
+    font-size: 65%;
     padding: 8px 14px;
   }
   .display-4 {
@@ -636,9 +651,6 @@ span.fade {
     height: 700px;
     display: none;
   }
-}
-.navbar-light .navbar-toggler-icon {
-  background-image: url(Imgs/algae.png);
 }
 
 /*---Firefox Bug Fix --*/
