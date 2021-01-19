@@ -101,6 +101,9 @@ a:hover {
 .nav-link {
   font-size: 1.1em !important;
 }
+.nav-link:hover {
+  color: #56e0a9 !important;
+}
 .carousel-inner img {
   width: 100%;
   height: 100%;
