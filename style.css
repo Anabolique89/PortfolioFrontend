@@ -99,7 +99,9 @@ a:hover {
   padding-right: 20px;
 }
 .nav-link {
-  font-size: 1.1em !important;
+  font-size: 1em !important;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .nav-link:hover {
   color: #56e0a9 !important;
