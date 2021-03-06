@@ -67,7 +67,6 @@ div.contactsome img {
 	background-image: url(svg/libraSavedAs.svg);
 	background-size: cover;
 	mix-blend-mode: multiply;
-    
 }
 
 .contactus {
@@ -304,10 +303,10 @@ font-size: 2.7em;
     .contactsome h {
         font-family: "Permanent Marker";
         text-transform: uppercase;
-        padding: 0.4vw;
+        padding: 0.5vw;
         font-size: 1.5em;
-        color: white;
-        text-shadow: black 1px 1px 10px ;
+       
+     
     }
     div.col-lg-6:nth-child(2){
         margin-top: -300px;
@@ -316,18 +315,18 @@ font-size: 2.7em;
     .contactsome p {
         padding: 0.4vw;
         margin: 0;
-        font-size: 1em;
-        color: white;
-        text-shadow: black 1px 1px 7px;
+        font-size: 1.2em;
     }
     
     div.contactsome img {
 		width: 60%;
-	
     }
+	.contactdetails{
+		margin-top: 10%;
+		width: 150%;
+	}
     footer {
-		padding-top: 0;
-		
+		padding-top: 0
 	  }
 	  .sendmessage h {
 		padding: 2vw;
@@ -335,5 +334,4 @@ font-size: 2.7em;
 		width: 100%;
 		font-size: 5vw;
 	}
-
   }

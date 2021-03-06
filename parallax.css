@@ -266,3 +266,9 @@ div.col-12 {
   grid-template-rows: inherit;
   grid-gap: 10px;
 }
+.fancy:not(.title) {
+  margin-left: 0px;
+}
+h1.fancy {
+  font-size: 1.8em !important;
+}
