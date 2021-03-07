@@ -57,10 +57,7 @@ body {
   grid-gap: 1rem;
   margin-bottom: 1rem;
 }
-.two-col > img:hover {
-  width: 500px;
-  height: auto;
-}
+
 .two-col p.lead {
   font-size: !important 0.5em;
 }

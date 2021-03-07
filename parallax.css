@@ -259,6 +259,9 @@ section.CV {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  h1.fancy {
+    font-size: 1.8em !important;
+  }
 }
 
 div.col-12 {
@@ -268,7 +271,4 @@ div.col-12 {
 }
 .fancy:not(.title) {
   margin-left: 0px;
-}
-h1.fancy {
-  font-size: 1.8em !important;
 }

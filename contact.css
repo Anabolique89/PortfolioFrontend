@@ -16,7 +16,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Sen";
+  font-family: "Sen", sans-serif;
   color: #222;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .contactus h {
-    font-family: "Permanent Marker";
+    font-family: "Permanent Marker",sans-serif;
 	margin: 0;
 	padding: 0;
 	font-size: 4vw;
@@ -63,10 +63,18 @@ div.contactsome img {
 }
 
 .contactdetails {
-	width: 150%;
-	background-image: url(svg/libraSavedAs.svg);
+
+	width: 100%;
+	max-width: 100%;
+	background-image: url(svg/libraSavedAs.png);
 	background-size: cover;
 	mix-blend-mode: multiply;
+	z-index: 1;
+}
+.contactall{
+	background-image: url(svg/bubble.png) ;
+	background-repeat: no-repeat;
+	z-index: 2;
 }
 
 .contactus {
@@ -217,7 +225,7 @@ input[type="submit"]:hover {
 }
 
 .contactsome h {
-    font-family: "Permanent Marker";
+    font-family: "Permanent Marker", sans-serif;
 	text-transform: uppercase;
 	padding: 0.4vw;
 	font-size: 2vw;
@@ -291,8 +299,58 @@ font-size: 2.7em;
 			div.col-lg-6{
 				margin-top: -3vw;
 			}
-		
   }
+  /*--------scroll----*/
+.scroll {
+	color: #fff;
+	margin-top: 100px;
+  }
+  
+  #toTopBtn {
+	position: fixed;
+	bottom: 26px;
+	right: 39px;
+	z-index: 98;
+	padding: 21px;
+	background-color: #56e0a9;
+  }
+  .js .cd-top--fade-out {
+	opacity: 0.5;
+  }
+  
+  .js .cd-top--is-visible {
+	visibility: visible;
+	opacity: 1;
+  }
+  
+  .js .cd-top {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.3s, visibility 0.3s, background-color 0.3s;
+  }
+  .cd-top {
+	position: fixed;
+	bottom: 20px;
+	bottom: var(--cd-back-to-top-margin);
+	right: 20px;
+	right: var(--cd-back-to-top-margin);
+	display: inline-block;
+	height: 40px;
+	height: var(--cd-back-to-top-size);
+	width: 40px;
+	width: var(--cd-back-to-top-size);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05) !important;
+	background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg)
+	  no-repeat center 50%;
+	background-color: #56e0a9;
+	background-color: hsla(
+	  var(--cd-color-3-h),
+	  var(--cd-color-3-s),
+	  var(--cd-color-3-l),
+	  0.8
+	);
+  }
+  /*----media queries----*/
   @media (max-width: 576px) {
     .contactsome {
         width: 100%;

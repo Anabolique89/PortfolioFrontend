@@ -17,7 +17,7 @@ body {
   background: #fff;
   height: 100%;
   width: 100%;
-  font-family: "Sen";
+  font-family: "Sen", sans-serif;
   color: #222;
   scroll-behavior: smooth;
   scroll-snap-align: center;
@@ -131,14 +131,15 @@ ul.carousel-indicators::active {
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
-  font-family: "Permanent Marker";
+  font-family: "Permanent Marker", sans-serif;
   font-size: 400%;
   text-transform: uppercase;
   text-shadow: 0.5px 0.5px 3px #0000ff, 1px 1px 10px #2ee59d;
 }
 .carousel-caption h3 {
+  font-family: "Sen, sans-serif;
   font-size: 200%;
-  font-weight: normal;
+  font-weight: 400;
   text-shadow: 0.5px 0.5px 3px #0000ff, 1px 1px 10px #2ee59d;
   padding-bottom: 1rem;
 }
@@ -680,6 +681,7 @@ span.fade {
   .carousel-caption {
     top: 40%;
   }
+  
   html {
     width: 100vw;
   }
@@ -690,7 +692,7 @@ span.fade {
   }
   .carousel-caption h3 {
     font-size: 90%;
-    font-weight: 200;
+    font-weight: 600;
     text-shadow: 0 0 5px blueviolet, 0px 0px 5px #2ee59d;
   }
   .carousel-caption .btn {
@@ -698,7 +700,7 @@ span.fade {
     padding: 4px 8px;
   }
   .carousel-caption .btn-lg {
-    width: 18vw;
+    width: 20vw;
     height: 22px;
   }
   .carousel-indicators {
