@@ -80,7 +80,7 @@ body {
     font-size: 1.1em;
   }
   .box h1 {
-    font-family: "Permanent Marker";
+    font-family: "Permanent Marker", sans-serif;
     font-size: 2em;
   }
   .welcome {
