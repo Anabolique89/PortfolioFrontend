@@ -610,7 +610,11 @@ div.card {
 .baguetteBox-button {
   background-color: transparent !important;
 }
-
+.lead{
+  font-size: 1rem !important;
+  margin-left: 7vw;
+  margin-right: 7vw;
+}
 @media (max-width: 768px) {
   body {
     padding: 0;
@@ -730,6 +734,11 @@ span.fade {
     width: 100vw;
     height: 700px;
     display: none;
+  }
+  .lead{
+    font-size: 1rem !important;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 }
 
