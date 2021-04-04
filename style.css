@@ -612,8 +612,8 @@ div.card {
 }
 .lead{
   font-size: 1rem !important;
-  margin-left: 7vw;
-  margin-right: 7vw;
+  margin-left: 7vw !important;
+  margin-right: 7vw !important;
 }
 @media (max-width: 768px) {
   body {
@@ -737,8 +737,8 @@ span.fade {
   }
   .lead{
     font-size: 1rem !important;
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 1vw !important;
+    margin-right: 1vw !important;
   }
 }
 
