@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Permanent Marker";
-  src: url("Fonts/PermanentMarker.ttf") format("ttf"),
-    url("Fonts/permanentmarker-webfont.woff") format("woff");
+  src: url("css/font/permanentmarker-webfont.woff2") format("woff2"),
+    url("css/font/permanentmarker-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Sen";
-  src: url("css/font/Sen-Regular.ttf") format("ttf"),
-    url("Fonts/sen-regular-webfont.woff") format("woff");
+  src: url("css/font/sen-regular-webfont.woff2") format("woff2"),
+    url("css/font/sen-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
